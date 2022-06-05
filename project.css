@@ -65,12 +65,12 @@ h1,h3{
 }
 .navlist li a:hover{
     cursor: pointer;
-    /* color: rgba(237, 233, 4, 0.866); */
+    /* color: rgba(24, 136, 191, 0.866); */
     transition: ease-in 0.1s;
     border: 2px solid white;
     border-radius: 1rem;
     /* background-color: rgb(14, 71, 192); */
-    padding: 10px;
+    padding: 15px;
 }
 .container{
     position: relative;
@@ -136,7 +136,7 @@ h1,h3{
     padding: 1em;
     margin: 0;
     border: none;
-    border-radius: 100%;
+    border-radius: 35%;
     outline: none;
     background: rgb(78, 135, 240);
     color: #fff;
@@ -147,6 +147,7 @@ h1,h3{
 .submit:hover{
     background: #fff !important;
     color: #000;
+    border-radius: 50%;
 }
 .search{
     background: none;
@@ -159,6 +160,8 @@ h1,h3{
 }
 .search:focus{
     outline: none;
+    border-bottom: 2px solid white;
+    transition: ease-in 0.1s;
 }
 .search::placeholder{
     color: #ccc;
